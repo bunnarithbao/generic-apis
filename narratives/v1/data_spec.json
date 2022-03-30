@@ -1,0 +1,45 @@
+{
+  "spec_version": "v1",
+  "schema-type": "json",
+  "data-types": {
+    "text": {
+      "input_type": "text",
+      "display_label": {
+        "required": false,
+        "value": "string"
+      },
+      "placeholder_text": {
+        "required": false,
+        "value": "string"
+      }
+    },
+    "number": {
+      "input_type": "number",
+       "display_label": {
+        "required": false,
+        "value": "string"
+      },
+      "placeholder_text": {
+        "required": false,
+        "value": "string"
+      }
+    },
+    "datetime": {},
+    "array of text": {},
+    "array of numbers": {},
+    "email": {},
+    "phone": {},
+    "address": {},
+    "selection": {},
+    "autocomplete": {},
+    "file": {}
+  },
+  "config": {
+    "title": "sample",
+    "fields": {
+     "name": {
+        "data-type": "string"
+      }
+    }
+  }
+}
